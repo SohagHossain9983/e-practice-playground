@@ -1,0 +1,46 @@
+#checkOutCard{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+    margin-top: -40px;
+    background-color: white;
+
+    .check-out-card-img{
+        img{
+            width: 76px;
+            height: 61.52px;
+        }
+        
+    }
+    .check-out-card-heading{
+        text-decoration: none;
+        color: black;
+        p{
+            font-weight: 400;
+            font-size: 19px !important;
+            margin-bottom: 0;
+        }
+        &:hover{
+            color: black;
+        }
+    }
+    h4{
+        font-weight: 500;
+        font-size: 22px;
+    }
+    .check-out-card-price{
+        color: #3C1FF4;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .check-out-card-button{
+        width: 326px;
+        height: 36px;
+        background-color: #3C1FF4;
+        border-radius: 3px  ;
+        border: none;
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+

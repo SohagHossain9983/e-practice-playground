@@ -1,0 +1,59 @@
+#trandingProductCard {
+    position: relative;
+    width: calc(100% / 5);
+    display: inline-block;
+    border: 1px solid white;
+    .tranding-product-heading {
+        text-decoration: none;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(24, 20, 20, 0.74);
+        p{
+            margin-bottom: 0px;
+        }
+    }
+    .Tranding-product-card-img {
+        img{
+            width: 206px;
+            height: 166px;
+        }
+    }
+    .Tranding-product-card-img-area {
+        background-color: #F6F7FB;
+        padding: 10px;
+    }
+   
+    .hover-area {
+        align-items: center;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+    }
+    .icon {
+        background-color: white;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    button {
+        font-size: 13px;
+        font-size: 400;
+        background-color: #3C1FF4;
+        border: none;
+        border-radius: 3px;
+        color: white;
+        width: 97px;
+        height: 33px;
+    }
+}
+
+#trandingProductCard:hover .hover-area {
+    opacity: 1;
+    transition: all 0.3s;
+}

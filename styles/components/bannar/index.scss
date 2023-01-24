@@ -1,0 +1,23 @@
+
+#homeBannar{
+    padding: 40px;
+    background: #F9F3F0;
+    border-radius: 5px;
+    h1{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .benner-heading{
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 59px;
+        color: rgba(0, 0, 0, 0.91);
+    }
+    .banner-button{
+        &:hover{
+            background-color: #3C1FF4;
+        }
+    }
+}

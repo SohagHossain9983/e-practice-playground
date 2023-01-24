@@ -1,0 +1,34 @@
+#filter-bar {
+    .categories {
+        width: 100%;
+        height: 1700px !important;
+        box-shadow: 1px 3px 14px 1px rgba(0, 0, 0, 0.2);
+        margin-top: -45px;
+        background-color: $LightColor;
+        margin-left: 15px;
+
+        .category-search {
+            border: 1px solid rgba(53, 119, 240, 0.75);
+            border-radius: 3px 0px 0px 3px;
+
+            Input {
+                border: none;
+            }
+
+            .searchIcon {
+                color: rgba(0, 0, 0, 0.35);
+                font-size: 20px;
+            }
+        }
+
+        .sub-categories {
+            p {
+                display: flex;
+                justify-content: space-between;
+
+            }
+
+        }
+
+    }
+}

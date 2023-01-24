@@ -1,0 +1,35 @@
+
+
+
+#navbar{
+    margin-left: 20px;
+    .department{
+        position: relative;
+        .modal-area{
+            width: 1000px;
+            height: 550px;
+            // overflow: scroll;
+            top: 40px;
+            left: 0;
+            position: absolute;
+            display: none;
+            background-color: white;
+            box-shadow: 1px 1px 8px rgba(0,0,0,0.19);
+        }
+        &:hover{
+            .modal-area{
+                display: block;
+            }
+        }
+    }
+}
+
+.dropdownCollam{
+box-sizing: border-box;
+width: 324px;
+height: 302px;
+margin: 0;
+padding: 0;
+background: #FEFEFE;
+border: 0.5px solid rgba(0, 0, 0, 0.17);
+}

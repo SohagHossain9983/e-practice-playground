@@ -1,0 +1,25 @@
+
+
+#BestProducts{
+    border: none;
+    display: block;
+    transition: all 0.4s;
+    .imgArea{
+        background-color: #F6F7FB;
+        text-align: center;
+        padding: 40px;
+    }
+    .buttonArea{
+        width: 100%;
+        height: 40px;
+        background-color: #3C1FF4;
+        color: white;
+        opacity: 0;
+        
+    }
+}
+#BestProducts:hover .buttonArea{
+    transition: all 0.4s;
+    opacity: 1;
+
+}

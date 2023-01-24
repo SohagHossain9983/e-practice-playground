@@ -1,0 +1,28 @@
+for check changes file
+=========================
+git status
+
+
+for add new changes 
+======================
+git add .
+
+
+for commit
+==============
+git commit -m 'commit message'
+
+for push 
+=================
+git push -u origin branch_name
+
+
+for create new branch 
+==========================
+git branch branch_name
+
+
+for checkout branch 
+=====================
+git checkout branch_name
+

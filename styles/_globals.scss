@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: '#FFFFFF';
+  font-family: 'Rubik', sans-serif;
+}
+
+#Heading {
+  p {
+    color: #3C1FF4;
+    font-size: 21px;
+    font-weight: 400;
+  }
+
+  h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+}
+
+.starIcon {
+  color: #FFB000;
+}
+
+#defaltButton {
+  button {
+    width: 157px;
+    height: 48px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #3C1FF4;
+    border-radius: 5px;
+    color: white;
+  }
+}
+#account{
+.margin-left{
+  // margin-left: 30px;
+  width: 246px;
+  height:488px;
+  margin-top: -50px;
+  background: #FFFFFF;
+  border: 0.6px solid rgba(0, 0, 0, 0.33);
+  border-radius: 3px
+  
+}
+
+  .name-title {
+    h4 {
+      font-size: 16px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      margin: 0;
+
+      color: rgba(0, 0, 0, 0.92);
+    }
+  }
+
+    p{
+      font-weight: 300;
+      font-size: 11px;
+      line-height: 13px;
+      color: rgba(0, 0, 0, 0.61);
+      margin: 0;
+    }
+   ul {
+      list-style: none;
+      padding-left:0 ;
+    }
+    .list{
+     
+      .list-items{
+        font-weight: 300;
+        font-size: 18px;
+        
+        line-height: 21px;
+        color: rgba(0, 0, 0, 0.74);
+        height:50px;
+        border: 0.6px solid rgba(0, 0, 0, 0.33);
+        background: rgba(60, 31, 244, 0.02);
+        padding-left: 37px;
+        align-items:center;
+        display: flex;
+      }
+      
+  
+    .list-items-1{
+      font-weight: 500;
+      height: 52px;
+      font-size: 18px;
+      line-height: 21px;
+      color: rgba(255, 255, 255, 0.74);
+      background: #3C1FF4;
+      border: 0.6px solid rgba(0, 0, 0, 0.33);
+      padding-left: 37px;
+      align-items:center;
+      display: flex;
+     
+
+    }
+    .products-name{
+      display: flex;
+      border: 1px solid rgba(0, 0, 0, 0.33);
+    }
+
+}
+.table{
+  margin-top:114px ;
+  border-top: 0.4px solid rgba(0, 0, 0, 0.4);
+ 
+  }
+
+
+}

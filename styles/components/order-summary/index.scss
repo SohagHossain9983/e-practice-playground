@@ -1,0 +1,26 @@
+
+
+#OrderSummary{
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+    margin-top: -40px;
+    background-color: white;
+    margin-bottom: 45px;
+    .order-summary-heading{
+        text-decoration: none;
+        color: black; 
+        text-align: center;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .order-summary-button{
+        background-color: #3C1FF4;
+        width: 326px;
+        height: 36px;
+        border: none;
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+        border-radius: 2px;
+    }
+}

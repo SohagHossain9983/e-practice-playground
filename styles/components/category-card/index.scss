@@ -1,0 +1,36 @@
+
+#categoryCard{
+    width: calc(100% / 5);  
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    .category-card-img{
+        img{
+            width: 125px !important;
+            height: 140px;
+        }
+    }
+    .category-card-heading{
+        text-decoration: none;
+        color: black;
+        padding-top: 50px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        
+    }
+}
+#categoryCard:hover{
+    background-color: #3C1FF4;
+    transition: all 0.5s;
+    .category-card-heading{
+        color: white;
+    }
+}
+#categoryCard:hover .category-card-img{
+    filter: invert(1);  
+}
